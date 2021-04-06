@@ -1,3 +1,13 @@
-h1, p {
+h1,
+p {
   font-family: Lato;
+}
+.grid-container {
+  background-color: orange;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 1rem;
+}
+
+.grid-item {
+  background-color: greenyellow;
 }
