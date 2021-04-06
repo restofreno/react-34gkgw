@@ -3,11 +3,16 @@ p {
   font-family: Lato;
 }
 .grid-container {
+  width:100vw;
+  height:50vmin;
   background-color: orange;
+  display:grid;
   grid-template-columns: repeat(5, 1fr);
   grid-gap: 1rem;
 }
 
 .grid-item {
   background-color: greenyellow;
+  border:thin solid #000;
+
 }
